@@ -117,6 +117,165 @@
       "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
       "verificationStatus": "Details pending",
       "accessNotes": "No RVs or trailers per NPS"
+    },
+    {
+      "id": "nv-008",
+      "name": "Cathedral Gorge State Park Campground",
+      "region": "Cathedral Gorge State Park",
+      "nearbyCity": "Panaca",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "22 sites, electric hookups available, showers and water. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/cathedral-gorge",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-009",
+      "name": "Echo Canyon North Campground",
+      "region": "Echo Canyon State Park",
+      "nearbyCity": "Pioche",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "33 campsites; water near sites. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/echo-canyon",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-010",
+      "name": "Echo Canyon RV Campground",
+      "region": "Echo Canyon State Park",
+      "nearbyCity": "Pioche",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "20 full-hookup RV sites. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/echo-canyon",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-011",
+      "name": "Beaver Dam State Park Campgrounds",
+      "region": "Beaver Dam State Park",
+      "nearbyCity": "Caliente",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Two developed campgrounds; small trailers; seasonal water. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/beaver-dam",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-012",
+      "name": "Spring Valley Ranch Campground",
+      "region": "Spring Valley State Park",
+      "nearbyCity": "Pioche",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Seven first-come, first-served campsites. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/spring-valley",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-013",
+      "name": "South Fork East Campground",
+      "region": "South Fork State Recreation Area",
+      "nearbyCity": "Spring Creek",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Developed campground with selected powered sites, showers and restrooms. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/south-fork",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-014",
+      "name": "Wild Horse State Recreation Area Campground",
+      "region": "Wild Horse State Recreation Area",
+      "nearbyCity": "Elko",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "34 sites; showers and restrooms; no hookups. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/wild-horse",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-015",
+      "name": "Washoe Lake State Park Campground",
+      "region": "Washoe Lake State Park",
+      "nearbyCity": "Carson City",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "49 sites; Loop A offers utility hookups; year-round camping. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/washoe-lake",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-016",
+      "name": "Rye Patch River Campground",
+      "region": "Rye Patch State Recreation Area",
+      "nearbyCity": "Lovelock",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "22 camping units below the dam; flush toilets and showers. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/rye-patch",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-017",
+      "name": "Rye Patch West Shore Campground",
+      "region": "Rye Patch State Recreation Area",
+      "nearbyCity": "Lovelock",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "25 camping units on reservoir west side; showers and restrooms. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
+      "officialWebsite": "https://parks.nv.gov/parks/rye-patch",
+      "verificationStatus": "Location coordinates pending verification",
+      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
     }
   ]
 }
