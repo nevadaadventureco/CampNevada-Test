@@ -2,7 +2,7 @@
   "project": "Camp Nevada",
   "owner": "Nevada Adventure Co.",
   "state": "Nevada",
-  "version": "1.2",
+  "version": "1.3-candidate",
   "campgrounds": [
     {
       "id": "nv-001",
@@ -117,22 +117,6 @@
       "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
       "verificationStatus": "Details pending",
       "accessNotes": "No RVs or trailers per NPS"
-    },
-    {
-      "id": "nv-008",
-      "name": "Cathedral Gorge State Park Campground",
-      "region": "Cathedral Gorge State Park",
-      "nearbyCity": "Panaca",
-      "state": "NV",
-      "type": "State Park",
-      "camping": [
-        "Tent",
-        "RV"
-      ],
-      "description": "22 sites, electric hookups available, showers and water. Check current operating conditions, fees, vehicle limits, and reservations with Nevada State Parks.",
-      "officialWebsite": "https://parks.nv.gov/parks/cathedral-gorge",
-      "verificationStatus": "Location coordinates pending verification",
-      "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
     },
     {
       "id": "nv-009",
@@ -276,6 +260,529 @@
       "officialWebsite": "https://parks.nv.gov/parks/rye-patch",
       "verificationStatus": "Location coordinates pending verification",
       "accessNotes": "Map pin omitted until campground-specific GPS coordinates are verified."
+    },
+    {
+      "id": "nv-018",
+      "name": "Berlin-Ichthyosaur State Park Campground",
+      "region": "Berlin-Ichthyosaur State Park",
+      "nearbyCity": "Gabbs",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/berlin-ichthyosaur",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-019",
+      "name": "Kershaw-Ryan State Park Campground",
+      "region": "Kershaw-Ryan State Park",
+      "nearbyCity": "Caliente",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/kershaw-ryan",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-020",
+      "name": "Fort Churchill Main Campground",
+      "region": "Fort Churchill State Historic Park",
+      "nearbyCity": "Silver Springs",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/fort-churchill",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-021",
+      "name": "Fort Churchill Scout Camp",
+      "region": "Fort Churchill State Historic Park",
+      "nearbyCity": "Silver Springs",
+      "state": "NV",
+      "type": "Dispersed",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/fort-churchill",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-022",
+      "name": "Lahontan Silver Springs Beach 7 Campground",
+      "region": "Lahontan State Recreation Area",
+      "nearbyCity": "Silver Springs",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/lahontan",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-023",
+      "name": "Lahontan River Camp",
+      "region": "Lahontan State Recreation Area",
+      "nearbyCity": "Silver Springs",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/lahontan",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-024",
+      "name": "Lahontan Shoreline Primitive Camping",
+      "region": "Lahontan State Recreation Area",
+      "nearbyCity": "Silver Springs",
+      "state": "NV",
+      "type": "Dispersed",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/lahontan",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-025",
+      "name": "Valley of Fire Atlatl Rock Campground",
+      "region": "Valley of Fire State Park",
+      "nearbyCity": "Overton",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/valley-of-fire",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-026",
+      "name": "Valley of Fire Arch Rock Campground",
+      "region": "Valley of Fire State Park",
+      "nearbyCity": "Overton",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/valley-of-fire",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-027",
+      "name": "Cave Lake Lake View Campground",
+      "region": "Cave Lake State Park",
+      "nearbyCity": "Ely",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/cave-lake",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-028",
+      "name": "Cave Lake Elk Flat Campground",
+      "region": "Cave Lake State Park",
+      "nearbyCity": "Ely",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/cave-lake",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-029",
+      "name": "Ward Charcoal Ovens Campground",
+      "region": "Ward Charcoal Ovens State Historic Park",
+      "nearbyCity": "Ely",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/ward-charcoal-ovens",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-030",
+      "name": "Big Bend of the Colorado Campground",
+      "region": "Big Bend of the Colorado State Recreation Area",
+      "nearbyCity": "Laughlin",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/big-bend-of-the-colorado",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-031",
+      "name": "Walker River State Recreation Area Campground",
+      "region": "Walker River State Recreation Area",
+      "nearbyCity": "Yerington",
+      "state": "NV",
+      "type": "State Recreation Area",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/walker-river",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-032",
+      "name": "Spooner Backcountry Camping",
+      "region": "Spooner Lake & Backcountry State Park",
+      "nearbyCity": "Glenbrook",
+      "state": "NV",
+      "type": "Backcountry",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://parks.nv.gov/parks/spooner-lake",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-033",
+      "name": "Angel Lake Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Wells",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-034",
+      "name": "Angel Creek Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Wells",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-035",
+      "name": "Thomas Canyon Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Lamoille",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-036",
+      "name": "Lamoille Canyon Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Lamoille",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-037",
+      "name": "Jack Creek Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Mountain City",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-038",
+      "name": "Big Bend Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Elko",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-039",
+      "name": "Powerhouse Picnic and Camping Area",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Elko",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-040",
+      "name": "Ward Mountain Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Ely",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-041",
+      "name": "Timber Creek Campground",
+      "region": "Humboldt-Toiyabe National Forest",
+      "nearbyCity": "Ely",
+      "state": "NV",
+      "type": "National Forest",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fs.usda.gov/r04/humboldt-toiyabe",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-042",
+      "name": "Illipah Reservoir Campground",
+      "region": "BLM Ely District",
+      "nearbyCity": "Ely",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/office/ely-district-office",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-043",
+      "name": "Sacramento Pass Recreation Area",
+      "region": "BLM Ely District",
+      "nearbyCity": "Baker",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/office/ely-district-office",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-044",
+      "name": "Hickison Petroglyph Recreation Area Campground",
+      "region": "BLM Battle Mountain District",
+      "nearbyCity": "Austin",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/office/battle-mountain-district-office",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-045",
+      "name": "Mill Creek Recreation Area Campground",
+      "region": "BLM Battle Mountain District",
+      "nearbyCity": "Battle Mountain",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/office/battle-mountain-district-office",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-046",
+      "name": "Wilson Reservoir Recreation Area Campground",
+      "region": "BLM Elko District",
+      "nearbyCity": "Tuscarora",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/office/elko-district-office",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-047",
+      "name": "Water Canyon Recreation Area",
+      "region": "BLM Winnemucca District",
+      "nearbyCity": "Winnemucca",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/office/winnemucca-district-office",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-048",
+      "name": "Pine Forest Range Onion Valley Campground",
+      "region": "Humboldt-Toiyabe region",
+      "nearbyCity": "Denio",
+      "state": "NV",
+      "type": "BLM",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/nevada",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-049",
+      "name": "Soldier Meadows Hot Springs Camping Area",
+      "region": "BLM Black Rock Desert High Rock Canyon",
+      "nearbyCity": "Gerlach",
+      "state": "NV",
+      "type": "Dispersed",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.blm.gov/nevada",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-050",
+      "name": "Virgin Valley Campground",
+      "region": "Sheldon National Wildlife Refuge",
+      "nearbyCity": "Denio",
+      "state": "NV",
+      "type": "Wildlife Refuge",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fws.gov/refuge/sheldon",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
+    },
+    {
+      "id": "nv-051",
+      "name": "Catnip Reservoir Campground",
+      "region": "Sheldon National Wildlife Refuge",
+      "nearbyCity": "Denio",
+      "state": "NV",
+      "type": "Wildlife Refuge",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Candidate camping location for Camp Nevada. Check official managing agency for access, allowed camping, fees, restrictions and current conditions before visiting.",
+      "officialWebsite": "https://www.fws.gov/refuge/sheldon",
+      "verificationStatus": "Candidate listing - campground-specific details and GPS unverified",
+      "accessNotes": "No map pin until precise GPS is verified. Vehicle suitability not yet confirmed."
     }
-  ]
+  ],
+  "dataNotes": "50 unique candidate listings. Some sites and campground names need official verification. Missing coordinates intentionally omitted. Duplicate Cathedral Gorge entry nv-008 removed; nv-005 retained."
 }
