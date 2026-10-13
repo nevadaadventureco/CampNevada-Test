@@ -1,9 +1,8 @@
-
 {
   "project": "Camp Nevada",
   "owner": "Nevada Adventure Co.",
   "state": "Nevada",
-  "version": "1.1",
+  "version": "1.2",
   "campgrounds": [
     {
       "id": "nv-001",
@@ -12,10 +11,15 @@
       "nearbyCity": "Baker",
       "state": "NV",
       "type": "National Park",
-      "camping": ["Tent", "RV"],
-      "description": "Developed campground in Great Basin National Park near Lehman Creek.",
-      "officialWebsite": "https://www.nps.gov/grba/",
-      "verificationStatus": "Details pending"
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Developed campground near Lehman Creek. Open year-round subject to conditions; no hookups or campground potable water.",
+      "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
+      "verificationStatus": "Details pending",
+      "lat": 39.016,
+      "lng": -114.246
     },
     {
       "id": "nv-002",
@@ -24,10 +28,15 @@
       "nearbyCity": "Baker",
       "state": "NV",
       "type": "National Park",
-      "camping": ["Tent", "RV"],
-      "description": "Mountain campground in Great Basin National Park near Lehman Creek.",
-      "officialWebsite": "https://www.nps.gov/grba/",
-      "verificationStatus": "Details pending"
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Seasonal developed campground. No hookups or campground potable water; check reservations and vehicle limits.",
+      "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
+      "verificationStatus": "Details pending",
+      "lat": 39.013,
+      "lng": -114.253
     },
     {
       "id": "nv-003",
@@ -36,25 +45,78 @@
       "nearbyCity": "Baker",
       "state": "NV",
       "type": "National Park",
-      "camping": ["Tent", "RV"],
-      "description": "Developed campground along Baker Creek in Great Basin National Park.",
-      "officialWebsite": "https://www.nps.gov/grba/",
-      "verificationStatus": "Details pending"
-      
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Seasonal developed campground along Baker Creek Road. No hookups or campground potable water.",
+      "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
+      "verificationStatus": "Details pending",
+      "lat": 38.985,
+      "lng": -114.243
     },
-     
-    {"id": "nv-004",
+    {
+      "id": "nv-004",
       "name": "Red Rock Canyon Campground",
       "region": "Red Rock Canyon National Conservation Area",
       "nearbyCity": "Las Vegas",
       "state": "NV",
       "type": "BLM",
-      "camping": ["Tent", "RV"],
-      "description": "Developed BLM campground with no hookups. Check reservations and vehicle restrictions.",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Developed BLM campground on Moenkopi Road with tent and RV sites, no hookups. Reservations and seasonal rules apply.",
       "officialWebsite": "https://www.blm.gov/visit/red-rock-canyon-campground",
+      "verificationStatus": "Details pending",
+      "lat": 36.1313889,
+      "lng": -115.3838889
+    },
+    {
+      "id": "nv-005",
+      "name": "Cathedral Gorge State Park Campground",
+      "region": "Cathedral Gorge State Park",
+      "nearbyCity": "Panaca",
+      "state": "NV",
+      "type": "State Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "22 campsites with tables, grills and shade ramadas. Electric hookups available; water, flush toilets and showers. Camp only in designated sites.",
+      "officialWebsite": "https://parks.nv.gov/parks/cathedral-gorge",
       "verificationStatus": "Details pending"
+    },
+    {
+      "id": "nv-006",
+      "name": "Wheeler Peak Campground",
+      "region": "Great Basin National Park",
+      "nearbyCity": "Baker",
+      "state": "NV",
+      "type": "National Park",
+      "camping": [
+        "Tent",
+        "RV"
+      ],
+      "description": "Seasonal high-elevation developed campground near the end of Wheeler Peak Scenic Drive. RV and trailer maximum length 24 feet; no hookups or campground potable water.",
+      "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
+      "verificationStatus": "Details pending",
+      "accessNotes": "RV and trailer maximum 24 feet per NPS"
+    },
+    {
+      "id": "nv-007",
+      "name": "Grey Cliffs Campground",
+      "region": "Great Basin National Park",
+      "nearbyCity": "Baker",
+      "state": "NV",
+      "type": "National Park",
+      "camping": [
+        "Tent"
+      ],
+      "description": "Seasonal developed campground. Narrow one-way dirt roads; RVs and trailers are not permitted. No hookups or campground potable water.",
+      "officialWebsite": "https://www.nps.gov/grba/planyourvisit/campgrounds.htm",
+      "verificationStatus": "Details pending",
+      "accessNotes": "No RVs or trailers per NPS"
     }
   ]
 }
-
-
