@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Camp Nevada | Explore the Silver State</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f2ea;color:#24372f;font:16px Arial,sans-serif}header{background:#193d32;color:#fff;padding:24px 16px;text-align:center}h1{margin:0;font-size:36px}header p{margin:8px 0 0}.hero{padding:26px 18px;text-align:center;background:#d9b57d}.hero h2{margin:0 0 8px}.wrap{max-width:1200px;margin:auto;padding:20px 14px}input,select{font:inherit;width:100%;padding:13px;border:1px solid #c9c9c2;border-radius:8px;background:white}.filters{display:grid;grid-template-columns:2fr 1fr;gap:10px;margin:14px 0}#map{height:430px;border-radius:12px;border:1px solid #ccc}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:18px}.card{background:white;border-radius:10px;padding:18px;box-shadow:0 2px 8px #0001}.card h3{margin:0 0 8px}.type{color:#587044;font-weight:bold;font-size:14px}.card p{line-height:1.45}a.action{display:inline-block;background:#193d32;color:white;text-decoration:none;padding:10px 12px;border-radius:7px;margin:4px 5px 0 0;font-size:14px}a.secondary{background:#e4e9e2;color:#193d32}.notice{background:#fff6df;padding:14px;border-left:4px solid #b88c3b;margin-top:18px;line-height:1.5}footer{text-align:center;background:#193d32;color:#fff;padding:25px;margin-top:25px}@media(max-width:600px){.filters{grid-template-columns:1fr}#map{height:360px}}
+</style>
+</head>
+<body>
+<header><h1>Camp Nevada</h1><p>One State. Endless Adventures.</p><p>Powered by Nevada Adventure Co.</p></header>
+<section class="hero"><h2>Find your next Nevada campsite</h2><p>Explore established campgrounds and public-land camping areas.</p></section>
+<main class="wrap">
+<h2>Explore Nevada camping</h2>
+<div class="filters"><input id="q" type="search" placeholder="Search campground, region or description" aria-label="Search locations"><select id="type" aria-label="Camping type"><option value="">All camping types</option></select></div>
+<div id="map" aria-label="Interactive Nevada camping map"></div>
+<p id="status" role="status" aria-live="polite">Loading campground database…</p>
+<p id="count" aria-live="polite"></p>
+<div class="grid" id="cards"></div>
+<div class="notice">This is an early discovery guide, not a reservation service. Map pins represent approximate campground or general area locations, not individual campsites or guaranteed legal camping spots. Check official agency information for current restrictions, closures, fees, access and reservations before traveling. Map tiles require an internet connection.</div>
+</main>
+<footer>Camp Nevada · Powered by Nevada Adventure Co. · © 2026</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+'use strict';
+const knownCoordinates = {
+  'nv-001': [39.016, -114.246],
+  'nv-002': [39.013, -114.253],
+  'nv-003': [38.985, -114.243]
+}; // Approximate coordinates from the previous website; verify before public release.
+let sites = [];
+const map = L.map('map').setView([39.3, -116.7], 6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors', maxZoom: 18
+}).addTo(map);
+const markers = L.layerGroup().addTo(map);
+const q = document.getElementById('q');
+const type = document.getElementById('type');
+const cards = document.getElementById('cards');
+const status = document.getElementById('status');
+const count = document.getElementById('count');
+function validUrl(value) {
+  try { const url = new URL(value); return ['https:', 'http:'].includes(url.protocol) ? url.href : null; }
+  catch { return null; }
+}
+function normalize(item) {
+  const fallback = knownCoordinates[item.id];
+  const lat = Number(item.lat ?? item.latitude ?? fallback?.[0]);
+  const lng = Number(item.lng ?? item.longitude ?? fallback?.[1]);
+  const hasCoords = Number.isFinite(lat) && Number.isFinite(lng) && Math.abs(lat) <= 90 && Math.abs(lng) <= 180;
+  return {
+    name: String(item.name || 'Unnamed location'),
+    region: [item.region, item.nearbyCity].filter(Boolean).join(' · '),
+    type: String(item.type || 'Other'),
+    description: String(item.description || 'Details pending verification.'),
+    source: validUrl(item.officialWebsite || item.source || ''),
+    lat: hasCoords ? lat : null,
+    lng: hasCoords ? lng : null,
+    pending: item.verificationStatus === 'Details pending'
+  };
+}
+function render() {
+  const term = q.value.trim().toLowerCase();
+  const kind = type.value;
+  const found = sites.filter(s => (!kind || s.type === kind) &&
+    [s.name, s.region, s.description].join(' ').toLowerCase().includes(term));
+  markers.clearLayers();
+  cards.replaceChildren();
+  const bounds = [];
+  for (const s of found) {
+    let pin = null;
+    if (s.lat !== null && s.lng !== null) {
+      pin = L.marker([s.lat, s.lng]).addTo(markers);
+      const popup = document.createElement('div');
+      const heading = document.createElement('strong'); heading.textContent = s.name;
+      const region = document.createElement('div'); region.textContent = s.region;
+      popup.append(heading, region);
+      pin.bindPopup(popup);
+      bounds.push([s.lat, s.lng]);
+    }
+    const card = document.createElement('article'); card.className = 'card';
+    const title = document.createElement('h3'); title.textContent = s.name;
+    const tag = document.createElement('div'); tag.className = 'type'; tag.textContent = s.type;
+    const region = document.createElement('p'); region.textContent = s.region;
+    const desc = document.createElement('p'); desc.textContent = s.description;
+    card.append(title, tag, region, desc);
+    if (s.pending) {
+      const note = document.createElement('p'); note.textContent = 'Amenities and access details pending verification.';
+      card.append(note);
+    }
+    if (s.source) {
+      const official = document.createElement('a'); official.className = 'action';
+      official.href = s.source; official.target = '_blank'; official.rel = 'noopener noreferrer';
+      official.textContent = 'Official information'; card.append(official);
+    }
+    if (pin) {
+      const view = document.createElement('a'); view.className = 'action secondary';
+      view.href = '#map'; view.textContent = 'Show on map';
+      view.addEventListener('click', () => { map.setView([s.lat, s.lng], 10); pin.openPopup(); });
+      card.append(view);
+    }
+    cards.append(card);
+  }
+  count.textContent = found.length + ' location' + (found.length === 1 ? '' : 's') + ' shown';
+  if (bounds.length) map.fitBounds(bounds, { padding: [30, 30], maxZoom: 10 });
+}
+async function loadCampgrounds() {
+  try {
+    const response = await fetch('./campgrounds.json', { cache: 'no-cache' });
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    const data = await response.json();
+    if (!Array.isArray(data.campgrounds)) throw new Error('Invalid campground database');
+    sites = data.campgrounds.filter(item => item && typeof item === 'object').map(normalize);
+    const categories = [...new Set(sites.map(s => s.type))].sort();
+    for (const category of categories) {
+      const option = document.createElement('option'); option.value = category;
+      option.textContent = category; type.append(option);
+    }
+    status.textContent = sites.length ? '' : 'No campgrounds have been added yet.';
+    render();
+  } catch (error) {
+    status.textContent = 'The campground database could not be loaded. Please try refreshing this page.';
+    count.textContent = '';
+    console.error('Camp Nevada database load failed:', error);
+  }
+}
+q.addEventListener('input', render);
+type.addEventListener('change', render);
+loadCampgrounds();
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+{
+  "project": "Camp Nevada",
+  "owner": "Nevada Adventure Co.",
+  "state": "Nevada",
+  "version": "1.1",
+  "campgrounds": [
+    {
+      "id": "nv-001",
+      "name": "Lower Lehman Creek Campground",
+      "region": "Great Basin National Park",
+      "nearbyCity": "Baker",
+      "state": "NV",
+      "type": "National Park",
+      "camping": ["Tent", "RV"],
+      "description": "Developed campground in Great Basin National Park near Lehman Creek.",
+      "officialWebsite": "https://www.nps.gov/grba/",
+      "verificationStatus": "Details pending"
+    },
+    {
+      "id": "nv-002",
+      "name": "Upper Lehman Creek Campground",
+      "region": "Great Basin National Park",
+      "nearbyCity": "Baker",
+      "state": "NV",
+      "type": "National Park",
+      "camping": ["Tent", "RV"],
+      "description": "Mountain campground in Great Basin National Park near Lehman Creek.",
+      "officialWebsite": "https://www.nps.gov/grba/",
+      "verificationStatus": "Details pending"
+    },
+    {
+      "id": "nv-003",
+      "name": "Baker Creek Campground",
+      "region": "Great Basin National Park",
+      "nearbyCity": "Baker",
+      "state": "NV",
+      "type": "National Park",
+      "camping": ["Tent", "RV"],
+      "description": "Developed campground along Baker Creek in Great Basin National Park.",
+      "officialWebsite": "https://www.nps.gov/grba/",
+      "verificationStatus": "Details pending"
+    }
+  ]
+}
