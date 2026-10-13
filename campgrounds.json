@@ -40,6 +40,21 @@
       "description": "Developed campground along Baker Creek in Great Basin National Park.",
       "officialWebsite": "https://www.nps.gov/grba/",
       "verificationStatus": "Details pending"
+      
+    },
+     
+    {."id": "nv-004",
+      "name": "Red Rock Canyon Campground",
+      "region": "Red Rock Canyon National Conservation Area",
+      "nearbyCity": "Las Vegas",
+      "state": "NV",
+      "type": "BLM",
+      "camping": ["Tent", "RV"],
+      "description": "Developed BLM campground with no hookups. Check reservations and vehicle restrictions.",
+      "officialWebsite": "https://www.blm.gov/visit/red-rock-canyon-campground",
+      "verificationStatus": "Details pending"
     }
   ]
+}
+
 }
